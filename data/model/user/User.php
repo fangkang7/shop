@@ -11,8 +11,8 @@ class User extends Model
     /**
      * 创建user跟userrole关联模型
      */
-    public function user()
+    public function userRole()
     {
-        return $this->hasOne('UserRole','role_id','role_id');
+        return $this->hasOne(\data\model\user\UserRole::class,'role_id','role_id');
     }
 }

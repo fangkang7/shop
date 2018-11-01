@@ -97,7 +97,6 @@
     function fleshVerify() {
       //重载验证码
       $('#imgVerify').attr('src', '{:url('admin/login/verify')}' );
-
     }
     jQuery.fn.center = function() {
       this.css("position", "absolute");
@@ -118,19 +117,19 @@
         }); //alert('用户名或密码不能为空');
         return;
       }
-      // if (vertify == '') {
-      //   layer.alert('验证码不能为空', {
-      //     icon: 2
-      //   });
-      //   return;
-      // }
-      // if (vertify.length == '') {
-      //   layer.alert('验证码错误', {
-      //     icon: 2
-      //   });
-      //   //fleshVerify();
-      //   return;
-      // }
+      if (vertify == '') {
+        layer.alert('验证码不能为空', {
+          icon: 2
+        });
+        return;
+      }
+      if (vertify.length == '') {
+        layer.alert('验证码错误', {
+          icon: 2
+        });
+        fleshVerify();
+        return;
+      }
 
       $.ajax({
         url: "{:URL('admin/login/login')}",
@@ -143,7 +142,7 @@
         },
         success: function(res) {
             console.log(res)
-          if (res.code) {
+          if (res.code == 1) {
               layer.alert(res.msg, {
                   icon: 1
               });

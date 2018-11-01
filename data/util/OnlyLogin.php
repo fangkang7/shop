@@ -23,15 +23,11 @@ class OnlyLogin
         $cacheToken = Cache::get('TOKEN'.SC::getUserInfo('uid'));
         // 当服务端或者本地的token为空时允许登录，只可以有一个人登陆进去，所以不管是否异地
         if(empty($cookieToken) || empty($cacheToken)){
-            Log::write('正常登陆，或者异地登录');
             return true;
         }
-
         if($cacheToken != $cookieToken){
-            Log::write('同时登录了，你被T了');
             return false;
         }
-        Log::write('常规操作');
         return true;
     }
 

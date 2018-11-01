@@ -6,6 +6,7 @@ use data\model\user\User;
 use Session;
 use SC,OnlyLogin;
 
+
 class UserService
 {
     // 定义多种登录方式
