@@ -62,19 +62,20 @@ class UserService
             'role_id'=>$user->role_id
         ];
 
-        // 存储是否是系统后台的用户
-        // if($user->is_system == 1){
-        //     //判断是否是系统后台的用户
-        // }
+        // 存储是否是系统后台的用户 判断是否是系统后台的用户
+        if($user->is_system == 1){
+            SC::setIsSystem(true);
+        }else{
+            SC::setIsSystem(false);
+        }
 
-        //用户登录token值
+        //用户登录成功给的标识
         SC::setLogin(true);
         // 存储用户信息
         SC::setUserInfo($data);
-        // Session::set('USER_INFO_SESSION',$data);
+
         // 存储用户角色
         SC::setUserRole($user->role_id);
-        // Session::set('USER_ROLE_SESSION',$user->role_id);
 
         // 用户登录后信息记录
         $data = [

@@ -17,12 +17,17 @@ class SC
        * 权限信息
        * @var string
        */
-      CONST USER_ROLE_SESSION = 'USER_ROLE_SESSION';
+      CONST USER_ROLE_SESSION      = 'USER_ROLE_SESSION';
       /**
        * USER用户信息
        * @var string1
        */
-      CONST USER_INFO_SESSION = 'USER_INFO_SESSION';
+      CONST USER_INFO_SESSION      = 'USER_INFO_SESSION';
+
+     /**
+      * 用户是否是系统后台用户
+      */
+      CONST USER_IS_SYSTEM_SESSION = 'USER_IS_SYSTEM_SESSION';
       // /**
       //  * 是否设置用户登入的有效时间
       //  * @var string
@@ -66,6 +71,29 @@ class SC
       {
           Session::get(self::USER_ROLE_SESSION);
       }
+
+      //--------------------------设置和获取用户是否是系统后台用户
+
+    /**
+     * 设置用户是否为后台系统用户
+     * @access public
+     * @param boolean $value 用户是后台用户为true，反正false
+     */
+      public function setIsSystem($value)
+      {
+          Session::set(self::USER_IS_SYSTEM_SESSION,$value);
+      }
+
+    /**
+     * 获取用户是否是后台用户
+     * @access public
+     * @return array
+     */
+      public function getIsSystem($value)
+      {
+          Session::set(self::USER_IS_SYSTEM_SESSION,$value);
+      }
+
       //-------------------------用户退出清空用户缓存信息
       // 退出登入
       public function clear()

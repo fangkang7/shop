@@ -3,6 +3,8 @@ namespace data\service;
 
 use data\model\user\UserRole;
 use data\model\user\User;
+use think\Request;
+
 class test
 {
     // 测试

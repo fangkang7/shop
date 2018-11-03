@@ -25,8 +25,5 @@ class RepetitionMiddleware
             Session::set('LAST_TIME',$nowTime);
             return $next($request);
         }
-
-
-
     }
 }
