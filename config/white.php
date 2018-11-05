@@ -8,5 +8,10 @@ return [
             'login',
             'execute'
         ]
+    ],
+    'test' => [
+        'index' => [
+            'index',
+        ]
     ]
 ];

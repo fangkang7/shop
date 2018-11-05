@@ -2,7 +2,10 @@
 
 namespace data\util;
 
+use app\common\model\admin\RoleModel;
 use Request,SC,Config,Log;
+use data\model\Module;
+use data\model\user\UserRole;
 
 class Rbac
 {
@@ -14,7 +17,8 @@ class Rbac
     private $action;
     // 需要检验的模块
     private $authModule = [
-        'admin'
+        'admin',
+        'test'
     ];
 
     /**
@@ -29,6 +33,12 @@ class Rbac
         $this->module     = strtolower(request()->module());
         $this->controller = strtolower(request()->controller());
         $this->action     = strtolower(request()->action());
+
+
+        // 定义测试数据
+        // $this->module     = 'admin';
+        // $this->controller = 'order';
+        // $this->action     = 'orderlist';
     }
 
     /**
@@ -56,8 +66,42 @@ class Rbac
              * 2.如果需要权限，判断用户是否为权限用户
              * 3.进行权限校验
              */
+            return $this->checkModule();
         }
         return true;
+    }
+
+    /**
+     * 获取所有权限信息
+     */
+    public function getModuleGroup($whereModule = '1 = 1')
+    {
+        return Module::where($whereModule)->order('pid,sort')->select()->toArray();
+    }
+
+    /**
+     * 对用户进行具体的权限验证
+     * 1.获取用户请求的模块权限
+     * 2.获取用户的自身权限
+     */
+    public function checkModule()
+    {
+        $whereModule = [
+            'module' => $this->module,
+            'controller' => $this->controller,
+            'method' => $this->action
+        ];
+
+        // 获取请求的路径对应的权限
+        $module = ($this->getModuleGroup($whereModule))[0];
+        // 判断当模块不存在，或者is_control_auth为0时返回true，为0是不控制权限，直接请求
+        if(empty($module) || $module['is_control_auth'] == 0){
+            return true;
+        }
+        // 获取用户所拥有的权限  json串
+        $roleModule = explode(',', SC::getUserRole());
+        // 查看访问的权限是否在用户权限列表中
+        return in_array($module['module_id'],$roleModule);
     }
 
     /**
@@ -66,27 +110,51 @@ class Rbac
     public function checkWhite()
     {
         // 获取白名单模块
-        $white = config::get('white');
+        $white = Config::get('white.');
         /**
          * empty 检查一个变量是否为空  为空时返回true
          * isset 检测变量是否设置  不存在返回false
          * 当白名单都没有用户输入的url时需要进行校验
          */
-        /*if(empty($white[$this->module]) || empty($white[$this->module][$this->controller])){
-            return false;
-        }
 
-        if(empty($white[$this->module][$this->controller][$this->action])){
-            return false;//需要校验
-        }else{
-            return true;//不需要检验
-        }*/
-
-        if(empty($white[$this->module]) && empty($white[$this->module][$this->controller]) && empty($white[$this->module][$this->controller][$this->action])){
-            return false;//需要校验
-        }else{
-            return true;//不需要检验
+        /**
+         * 当module存在白名单时返回false，进行action的验证
+         * 当module不存在的时候返回true，进入iif判断
+         * 在继续验证controller，当controller不存在白名单时返回true，进入if判断返回false
+         * 当验证controller存在时返回false，进行action的验证
+         * 当module和controller都存在时返回的都是false，就进行action的验证
+         */
+        if (empty($white[$this->module]) || empty($white[$this->module][$this->controller])) {
+            // 先判断访问地址是否白名单中
+            return false; //需要权限校验
         }
+        if (in_array($this->action, $white[$this->module][$this->controller])) { //判断方法是否在白名单列表中
+            return true;
+        } else {
+            return false; //需要权限校验
+        }
+    }
+
+    /**
+     * 获取用户权限
+     */
+    public function getRoleModule($role_id)
+    {
+        $role = UserRole::with([
+            'UserGroup' => function($userGroup){
+                // 这里可以对查询字段和查询条件做过滤
+                $userGroup->field('group_id,module_id_array')->where('group_status', 1);
+            }
+        ])->where([
+            'role_id'=>$role_id,
+            'role_status' => 1
+        ])->find()->toArray();
+        /*
+         * '120,121,122,123,129,126,127,144,360,128,133,149,139,169,151,171,172,210,334,478,516,517,179,180,186,187,195,196,197,198,199,200,201,202,203,446,469,184,185,190,194,189,191,192,487,533,534,471,472,528,529,530,218,418,474,678,679,680,10006,409,403,405,454,457,459,462,463,460,684,726,727,729,730,732,467,515'
+         * 返回用户所拥有的权限
+         * */
+        return $role['user_group']['module_id_array'];
+
     }
 
 }

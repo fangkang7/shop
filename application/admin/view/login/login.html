@@ -117,19 +117,19 @@
         }); //alert('用户名或密码不能为空');
         return;
       }
-      if (vertify == '') {
-        layer.alert('验证码不能为空', {
-          icon: 2
-        });
-        return;
-      }
-      if (vertify.length == '') {
-        layer.alert('验证码错误', {
-          icon: 2
-        });
-        fleshVerify();
-        return;
-      }
+      // if (vertify == '') {
+      //   layer.alert('验证码不能为空', {
+      //     icon: 2
+      //   });
+      //   return;
+      // }
+      // if (vertify.length == '') {
+      //   layer.alert('验证码错误', {
+      //     icon: 2
+      //   });
+      //   fleshVerify();
+      //   return;
+      // }
 
       $.ajax({
         url: "{:URL('admin/login/login')}",
@@ -146,7 +146,7 @@
               layer.alert(res.msg, {
                   icon: 1
               });
-            // top.location.href = "{:URL('admin/index/index')}";
+            top.location.href = "{:URL('admin/index/index')}";
           } else {
             layer.alert(res.msg, {
               icon: 2

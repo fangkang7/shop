@@ -45,7 +45,7 @@ class SC
       // 判断用户是否登入成功
       public function getLogin()
       {
-          Session::get(self::LOGIN_MARK_SESSION_KEY);
+          return Session::get(self::LOGIN_MARK_SESSION_KEY);
       }
       //---------------------------设置用户和获取用户的登入信息
       // 设置用户的信息
@@ -69,7 +69,7 @@ class SC
       // 获取用户的角色
       public function getUserRole()
       {
-          Session::get(self::USER_ROLE_SESSION);
+          return Session::get(self::USER_ROLE_SESSION);
       }
 
       //--------------------------设置和获取用户是否是系统后台用户
@@ -89,9 +89,9 @@ class SC
      * @access public
      * @return array
      */
-      public function getIsSystem($value)
+      public function getIsSystem()
       {
-          Session::set(self::USER_IS_SYSTEM_SESSION,$value);
+          return Session::get(self::USER_IS_SYSTEM_SESSION);
       }
 
       //-------------------------用户退出清空用户缓存信息

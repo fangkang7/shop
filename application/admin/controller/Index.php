@@ -3,7 +3,7 @@
 namespace app\admin\controller;
 
 use think\Controller;
-use think\Request;
+use Request;
 use data\service\test;
 
 class Index extends Controller
@@ -15,8 +15,6 @@ class Index extends Controller
      */
     public function index()
     {
-
-        $test = new test;
-        dump( $test->userList());
+       return '咔咔你进来了啊！！！';
     }
 }

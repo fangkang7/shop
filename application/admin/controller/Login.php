@@ -38,13 +38,13 @@ class Login extends Controller
             $password = Request::param('password');
             $userVaildata = new UserValidate;
             // 对验证类进行验证
-            if (!$userVaildata->check(Request::param())) {
-                return json([
-                    'code' => USER_LOGIN_VALIDATE_ERROR,
-                    //$userVaildata->getError()可以获取到具体的错误信息
-                    'msg' => $userVaildata->getError()
-                ]);
-            }
+            // if (!$userVaildata->check(Request::param())) {
+            //     return json([
+            //         'code' => USER_LOGIN_VALIDATE_ERROR,
+            //         //$userVaildata->getError()可以获取到具体的错误信息
+            //         'msg' => $userVaildata->getError()
+            //     ]);
+            // }
             return ajaxRuturn($this->userService->login($username, $password));
         }
         return $this->fetch();

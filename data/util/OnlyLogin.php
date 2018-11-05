@@ -2,7 +2,7 @@
 
 namespace data\util;
 
-use Cookie,Cache,Log,SC;
+use Cookie,Cache,Log;
 
 
 /**
@@ -16,11 +16,11 @@ class OnlyLogin
      */
     public function onlyCheck()
     {
+        Log::write('进入了唯一登录');
         // 获取本地的token
-        $cookieToken = Cookie::get('TOKEN'.SC::getUserInfo('uid'));
-        $cookieToken = Cookie::get('TOKEN'.SC::getUserInfo('uid'));
+        $cookieToken = Cookie::get('TOKEN63');
         // 获取服务端缓存
-        $cacheToken = Cache::get('TOKEN'.SC::getUserInfo('uid'));
+        $cacheToken = Cache::get('TOKEN63');
         // 当服务端或者本地的token为空时允许登录，只可以有一个人登陆进去，所以不管是否异地
         if(empty($cookieToken) || empty($cacheToken)){
             return true;

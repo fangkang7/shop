@@ -2,7 +2,8 @@
 
 namespace data\service;
 
-use data\model\user\User;
+use data\facade\Rbac;
+use data\model\User;
 use Session;
 use SC,OnlyLogin;
 
@@ -65,18 +66,15 @@ class UserService
         // 存储是否是系统后台的用户 判断是否是系统后台的用户
         if($user->is_system == 1){
             SC::setIsSystem(true);
+            // 存储用户角色权限
+            SC::setUserRole(Rbac::getRoleModule($user->role_id));
         }else{
             SC::setIsSystem(false);
         }
-
         //用户登录成功给的标识
         SC::setLogin(true);
         // 存储用户信息
         SC::setUserInfo($data);
-
-        // 存储用户角色
-        SC::setUserRole($user->role_id);
-
         // 用户登录后信息记录
         $data = [
             //当前登录ip

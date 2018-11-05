@@ -33,4 +33,5 @@ class Index extends Controller
         // 输出
         return (is_array($data)) ? json_encode($data) : var_dump($data);
     }
+
 }

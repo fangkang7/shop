@@ -1,6 +1,6 @@
 <?php
 
-namespace data\model\user;
+namespace data\model;
 
 use think\Model;
 
