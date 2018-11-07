@@ -11,9 +11,10 @@ class MessageBehavior
 {
     public function run()
     {
-        $codes = Config::get('message.code');
+        $codes = Config::get('message.');
+        // 获取出来是数据，我们需要将信息设置成为常量key，将索引设置成key
         foreach ($codes as $key => $value) {
-            define($key,$value);
+            define($value['code'],$key);
         }
     }
 }

@@ -36,7 +36,7 @@ class Login extends Controller
         if (Request::isPost()) {
             $username = Request::param('username');
             $password = Request::param('password');
-            $userVaildata = new UserValidate;
+            // $userVaildata = new UserValidate;
             // 对验证类进行验证
             // if (!$userVaildata->check(Request::param())) {
             //     return json([
@@ -45,6 +45,7 @@ class Login extends Controller
             //         'msg' => $userVaildata->getError()
             //     ]);
             // }
+
             return ajaxRuturn($this->userService->login($username, $password));
         }
         return $this->fetch();

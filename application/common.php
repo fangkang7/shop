@@ -10,17 +10,22 @@
 // +----------------------------------------------------------------------
 
 use think\Loader;
+use think\Facade;
+use think\facade\Log;
+
 
 // 定义data命名空间
 Loader::addNamespace('data', Loader::getRootPath() . 'data' . DIRECTORY_SEPARATOR);
+
 
 // 应用公共文件
 function ajaxRuturn($code,$data=[]){
     $result = ['code' => $code , 'msg' => getMessage($code)];
     $result = (!empty($data)) ? $result['data'] = $data : $result;
-    return $result;
+    return json($result);
 }
 function getMessage($code){
-    $info = config('message.info');
-    return (array_key_exists($code,$info) ? $info[$code] : '操作失败');
+    $info = config('message.');
+
+    return (array_key_exists($code,$info) ? $info[$code]['msg'] : '操作失败');
 }

@@ -4,7 +4,9 @@ namespace app\admin\controller;
 
 use think\Controller;
 use Request;
-use data\service\test;
+use Config;
+use SC;
+
 
 class Index extends Controller
 {
@@ -13,8 +15,14 @@ class Index extends Controller
      *
      * @return \think\Response
      */
-    public function index()
+    public static function index()
     {
-       return '咔咔你进来了啊！！！';
+        return SC::getUserRole();
     }
+
+    public function hello()
+    {
+        return 'kkaa';
+    }
+
 }

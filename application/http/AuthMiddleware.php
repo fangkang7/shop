@@ -18,6 +18,7 @@ class AuthMiddleware
          * true不需要校验直接返回请求
          */
         if(Rbac::checkWhite()){
+            Log::write('白名单验证通过');
             return $next($request);
         }
 

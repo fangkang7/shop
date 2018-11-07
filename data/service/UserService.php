@@ -5,7 +5,7 @@ namespace data\service;
 use data\facade\Rbac;
 use data\model\User;
 use Session;
-use SC,OnlyLogin;
+use SC,OnlyLogin,Db;
 
 
 class UserService

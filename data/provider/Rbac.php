@@ -1,6 +1,6 @@
 <?php
 
-namespace data\util;
+namespace data\provider;
 
 use app\common\model\admin\RoleModel;
 use Request,SC,Config,Log;
@@ -47,6 +47,7 @@ class Rbac
     public function check()
     {
         // 需要检验用户是否登录成功,在登录成功之后在做校验
+        Log::write(SC::getLogin());
         if(!SC::getLogin()){
             return false;
         }
@@ -79,11 +80,7 @@ class Rbac
         return Module::where($whereModule)->order('pid,sort')->select()->toArray();
     }
 
-    /**
-     * 对用户进行具体的权限验证
-     * 1.获取用户请求的模块权限
-     * 2.获取用户的自身权限
-     */
+
     public function checkModule()
     {
         $whereModule = [

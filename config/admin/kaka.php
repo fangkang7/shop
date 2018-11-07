@@ -6,11 +6,14 @@ return [
     'admin' => [
         'login' => [
             'login',
-            'execute',
-            'verify'
+            'execute'
+        ],
+        'index' => [
+            'index',
+            'execute'
         ],
     ],
-    'index' => [
+    'test' => [
         'index' => [
             'index',
         ]

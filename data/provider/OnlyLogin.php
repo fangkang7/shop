@@ -1,6 +1,6 @@
 <?php
 
-namespace data\util;
+namespace data\provider;
 
 use Cookie,Cache,Log;
 
