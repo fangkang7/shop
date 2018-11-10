@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!-- 公共头部 -->
+      <!-- 模板是 html
+        file="base/head" 是不带 .html后缀
+        !!!!  注意空格
+     -->
+      {include file="base/head"/}
+      <!-- 单独样式 -->
+      {block name="alone_css"}{/block}
+  </head>
+
+  <body onbeforeunload="return browserClose()">
+      <!-- 导航栏 -->
+      {include file="base/header"/}
+      <!-- 主体-->
+      <div class="MAIN" style="min-height: 94vh;">
+          <!-- 左边导航栏 -->
+          {include file="base/left"/}
+          <!-- 导航栏右边 -->
+          <div class="RIGHT">
+            {include file="base/ncsc_path"/}
+            {include file="base/tabmenu"/}
+
+            {block name="right_mian"}
+            <div class="main">
+                <!-- 这是最主要的 -->
+            </div>
+            {/block}
+
+            {include file="base/page"/}
+            <!-- 公共的操作提示弹出框 common-success：成功，common-warning：警告，common-error：错误，-->
+    				<div class="common-tip-message js-common-tip">
+    					<div class="inner"></div>
+    				</div>
+          </div>
+      </div>
+      {include file="base/password"/}
+      <!-- 单独js -->
+      {block name="alone_js"}{/block}
+      <!-- 尾部js -->
+      {include file="base/common_base"/}
+  </body>
+</html>

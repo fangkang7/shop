@@ -75,9 +75,13 @@ class Rbac
     /**
      * 获取所有权限信息
      */
-    public function getModuleGroup($whereModule = '1 = 1')
+    public function getModuleGroup($where = '1 = 1',$whereOr = null)
     {
-        return Module::where($whereModule)->order('pid,sort')->select()->toArray();
+        if($whereOr){
+            return Module::where([$where])->whereOr([$whereOr])->order('pid,sort')->select()->toArray();
+        }else{
+            return Module::where($where)->order('pid,sort')->select()->toArray();
+        }
     }
 
 

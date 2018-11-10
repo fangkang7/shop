@@ -1,0 +1,248 @@
+<script type="text/javascript">
+  function showMessage(type, message, url, time) {
+    if (url == undefined) {
+      url = '';
+    }
+    if (time == undefined) {
+      time = 2;
+    }
+    //成功之后的跳转
+    if (type == 'success') {
+      $("#dialog").dialog({
+        buttons: {
+          "确定,#51A351": function() {
+            $(this).dialog('close');
+          }
+        },
+        contentText: message,
+        time: time,
+        timeHref: url,
+      });
+    }
+    //失败之后的跳转
+    if (type == 'error') {
+      $("#dialog").dialog({
+        buttons: {
+          "确定,#e57373": function() {
+            $(this).dialog('close');
+          }
+        },
+        time: time,
+        contentText: message,
+        timeHref: url,
+      });
+    }
+  }
+  function open_UpdateRoleManage(module_id_array, roleId, name) {
+    popupOperate("gray-edit-role", "用户组设置", "gray-edit-role");
+    $("#currentRoleID").val(roleId);
+    $("#EditRoleName").val(name);
+    if (roleId == 1) {
+      $("[name = permiss]").attr("checked", true);
+    } else {
+      $("[name = permiss]").attr("checked", false);
+      $('input[name = permiss]').each(function() {
+        //alert($(this).attr('id'));
+        if (module_id_array.indexOf($(this).attr('id')) >= 0) {
+          //alert($(this).attr('id'));
+          $(this).attr('checked', 'checked');
+        }
+      });
+    }
+  }
+
+  //修改
+  function update_RoleManage() {
+    var roleId = $("#currentRoleID").val();
+    var $roleName = $("#EditRoleName").val();
+    var $array = $("#EditsendCheckDatas").val();
+    if ($roleName == '') {
+      showMessage("error", "请填写用户组名称");
+      $("#btn").removeAttr("disabled");
+      return;
+    }
+    if ($array == '') {
+      showMessage("error", "请选择权限");
+      return false;
+    }
+    $.ajax({
+      url: "{:url('admin/auth/updateusergroup')}",
+      type: "post",
+      data: {
+        "roleId"  : roleId,
+        "array"   : $array,
+        "roleName": $roleName
+      },
+      success: function(res) {
+        //alert(JSON.stringify(res));
+        if (res['code'] > 0) {
+          window.location.reload();
+        } else {
+          showMessage("error", res['message']);
+        }
+      }
+    })
+  }
+
+  //删除
+  function deleteRole(group_id) {
+    $("#dialog").dialog({
+      buttons: {
+        "确定": function() {
+          $(this).dialog('close');
+          $.ajax({
+            url: "http://tp.23673.com/admin/auth/deletesystemusergroup",
+            data: {
+              "group_id": group_id
+            },
+            type: "post",
+            dataType: "json",
+            success: function(data) {
+              //alert(group_id);
+              if (data['code'] > 0) {
+                $("#dialog").dialog({
+                  buttons: {
+                    "确定": function() {
+                      $(this).dialog('close');
+                    }
+                  },
+                  time: 2,
+                  contentText: data['message']
+                })
+                window.location.reload();
+              } else {
+                $("#dialog").dialog({
+                  buttons: {
+                    "确定,#e57373": function() {
+                      $(this).dialog('close');
+                    }
+                  },
+                  contentText: data['message']
+                })
+              }
+            }
+          });
+        },
+        "取消,#e57373": function() {
+          $(this).dialog('close');
+        }
+      },
+      contentText: "确定删除吗"
+    });
+  }
+
+  //添加
+  function add_RoleManage() {
+    var $roleName = $("#RoleName").val();
+    var array = $("#sendCheckDatas").val();
+    if ($roleName == '') {
+      showMessage("error", "请填写用户组名称");
+      $("#btn").removeAttr("disabled");
+      return;
+    }
+    if (array == '') {
+      showMessage("error", "请选择权限");
+      $("#btn").removeAttr("disabled");
+      return;
+    }
+    $.ajax({
+      url: "{:url('admin/auth/addusergroup')}",
+      type: "post",
+      data: {
+        "array": array,
+        "roleName": $roleName
+      },
+      success: function(res) {
+        if (res['code'] > 0) {
+          window.location.reload();
+        } else {
+        //  showMessage("error", res['msg']);
+          $("#btn").removeAttr("disabled");
+        }
+      }
+    })
+  }
+
+  //查询 pageNum：显示那一页   where：条件
+  function LoadingInfo(page_index, page_size) {
+    $.ajax({
+      url: "{:url('admin/auth/authgrouplist')}",
+      type: "post",
+      data: {
+        "page_index": page_index,
+        "page_size": $("#showNumber").val()
+      },
+      dataType: "json",
+      success: function(res) {
+        //console.log(res);
+        $("#grouplis").children("tr").remove();
+        for (var i = 0; i < res['data'].length; i++) {
+          var array = res['data'][i];
+          var name = array["group_name"];
+          var roleId = array["group_id"];
+          var is_system = array["is_system"];
+          var module_id_array = array['module_id_array'];
+          if (is_system == 0) {
+            var is_system_name = '否';
+          } else {
+            var is_system_name = '是';
+          }
+          $("#hidden_rolename").val($("#hidden_rolename").val() + "," + name);
+          var strBeg = "<tr class='tr-Current' align='center'><td><div class='cell'><label ><input name='sub' type='checkbox' value=" +
+            roleId +
+            " is_system=" +
+            is_system +
+            " onclick='CheckThis()'></label>";
+          strBeg = strBeg +
+            "</div></td><td align='left'><div class='cell'>" +
+            name +
+            "</div></td><td>" +
+            is_system_name +
+            "</td>";
+          if (is_system == 0) {
+            strBeg = strBeg +
+              "<td><div class='cell'><div class='mod-operate'><div class='con style0editel'><a class='edit' href='javascript:void(0)' onclick='open_UpdateRoleManage(&#39;" +
+              module_id_array +
+              "&#39;," +
+              roleId +
+              ",&#39;" +
+              name +
+              "&#39;)'>编辑</a>  <a class='del' href='javascript:void(0)' onclick='javascript:deleteRole(" +
+              roleId + ")'>删除</a>";
+          } else {
+            strBeg = strBeg +
+              "<td>";
+          }
+          strBeg = strBeg + "</div></div></div></td></tr>";
+          $('#grouplis').append(strBeg);
+        }
+        initPageData(res["page_count"], res['data'].length, res['total_count']);
+        $("#pageNumber").html(pagenumShow(jumpNumber, $("#page_count").val(), 5));
+      }
+    })
+  }
+  // enter 键模糊查询 bug 2013-11-16 14:10:06
+  document.onkeypress = function() {
+    var iKeyCode = -1;
+    if (arguments[0]) {
+      iKeyCode = arguments[0].which;
+    } else {
+      iKeyCode = event.keyCode;
+    }
+    if (iKeyCode == 13) {
+      if ($("#txtSearch").val() == null || $("#txtSearch").val() == "请输入用户组名称..." || $("#txtSearch").val().trim() == '') {
+        roleManageList(1);
+      } else {
+        roleManageList(1, $("#txtSearch").val());
+      }
+    }
+  }
+  // 查询
+  function txtSearch() {
+    if ($("#txtSearch").val() == null || $("#txtSearch").val() == "请输入用户组名称..." || $("#txtSearch").val().trim() == '') {
+      roleManageList(1);
+    } else {
+      roleManageList(1, $("#txtSearch").val());
+    }
+  }
+</script>

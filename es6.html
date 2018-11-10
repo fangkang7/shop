@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     <table>
+         <td>
+             我是咔咔
+         </td>
+     </table>
+     <script type="text/javascript">
+         var kaka = '我是咔咔'
+         var html = '<table>';
+         html += '<td>'+kaka;
+         html += '<td>';
+         html += '<table>';
+
+         var es6html =
+             `
+            <table>
+                <td>
+                ${kaka}
+                </td>
+             </table>
+            `;
+         console.log(html);
+         console.log(es6html)
+     </script>
+</body>
+</html>

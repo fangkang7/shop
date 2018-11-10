@@ -13,6 +13,8 @@
  * 添加物流公司
  */
 
+
+
 //模块输入信息验证
 function verify(company_name, phone,orders) {
 	if (company_name == '') {

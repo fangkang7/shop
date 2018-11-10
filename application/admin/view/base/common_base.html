@@ -1,0 +1,85 @@
+<script src="__PUBLIC__/static/js/ns_common_base.js"></script>
+<script>
+  $(function() {
+    $('.index-sitemap > a').bind("click", function() {
+      $(".sitemap-menu-arrow").slideDown("slow");
+      $(".sitemap-menu").slideDown("slow");
+    });
+    $('.add-quickmenu > a').bind("click", function() {
+      $(".sitemap-menu-arrow").slideDown("slow");
+      $(".sitemap-menu").slideDown("slow");
+    });
+    $('#closeSitemap').bind("click", function() {
+      $(".sitemap-menu-arrow").slideUp("fast");
+      $(".sitemap-menu").slideUp("fast");
+    });
+  });
+
+  function add_nav_class(doc) {
+    $(doc).addClass("hover");
+  }
+
+  function remove_nav_class(doc) {
+    $(doc).removeClass("hover");
+  }
+
+  // 显示导航管理
+  function nav_open() {
+    var one = new Array();
+    var two = new Array();
+    var three = new Array();
+    $(".ncsc-head-layout .sitemap-menu dl").each(function(c, e) {
+      if (c < 5) {
+        one.push($(e).height());
+      } else if (c > 4 && c < 10) {
+        two.push($(e).height());
+      } else if (c > 9 && c < 15) {
+        three.push($(e).height());
+      }
+    })
+    $(".ncsc-head-layout .sitemap-menu dl").each(function(c, e) {
+      if (c < 5) {
+        var one_max_height = Math.max.apply(Math, one);
+        $(e).height(one_max_height);
+      } else if (c > 4 && c < 10) {
+        var two_max_height = Math.max.apply(Math, two);
+        $(e).height(two_max_height);
+      } else if (c > 9 && c < 15) {
+        var three_max_height = Math.max.apply(Math, three);
+        $(e).height(three_max_height);
+      }
+    })
+    $(".sitemap-menu-arrow").show();
+    $(".sitemap-menu").show();
+  }
+  // 隐藏导航管理
+  function nav_close() {
+    $(".sitemap-menu-arrow").hide();
+    $(".sitemap-menu").hide();
+  }
+  // 系统注销菜单的控制
+  var closetimer = 0;
+
+  function exitSystemOver() {
+    cancelColseMenu();
+    $("#exit_System").css("display", "block");
+  };
+
+  function exitSystemOut() {
+    closetimer = window.setTimeout(mclose, 600);
+  };
+
+  function cancelColseMenu() {
+    window.clearTimeout(closetimer);
+    closetimer = null;
+  };
+
+  function mclose() {
+    $("#exit_System").css("display", "none");
+  }
+
+  function browserClose() {
+      
+  }
+  // onbeforeunload或者onunload
+</script>

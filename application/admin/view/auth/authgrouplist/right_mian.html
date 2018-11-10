@@ -1,0 +1,43 @@
+<div class="main">
+  <div class="mod-table">
+    <div class="mod-table-head">
+      <div class="con style0list">
+        <table>
+          <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 50%;">
+            <col style="width: 15%;">
+            <col style="width: 15%;">
+            <col style="width: auto;">
+          </colgroup>
+          <thead>
+            <tr align="center">
+              <th>
+                <label style="margin-left: 5px;">
+                  <input id="ckall" type="checkbox" onclick="CheckAll(event)">
+                </label>
+              </th>
+              <th style="text-align: left;">用户组</th>
+              <th>是否是管理员组</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <colgroup>
+            <col style="width: 5%;">
+            <col style="width: 80%;">
+            <col style="width: 15%;">
+            <col style="width: auto;">
+          </colgroup>
+          <tbody id="grouplis" style="font-size: 12px;"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <input type="hidden" id="hidden_rolename" />
+  <input type="hidden" name="sendCheckDatas" id="sendCheckDatas">
+  
+  <!-- 添加权限 -->
+  {include file="auth/authgrouplist/right_mian/gray_add_role"/}
+  <!-- 修改权限 -->
+  {include file="auth/authgrouplist/right_mian/gray-edit-role"/}
+</div>

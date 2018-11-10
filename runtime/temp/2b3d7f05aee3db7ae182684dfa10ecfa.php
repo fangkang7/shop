@@ -1,10 +1,11 @@
+<?php /*a:1:{s:62:"D:\PHPTutorial\WWW\shop\application\test\view\index\index.html";i:1541666429;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="text/javascript" src="__ADMIN__static/js/jquery.js"></script>
+    <script type="text/javascript" src="/shop/public/static/js/jquery.js"></script>
     <title>Document</title>
     <style>
       *{
@@ -17,7 +18,7 @@
         width: 100vw;
         height: 100vh;
         margin: 0 auto;
-        background: url(__ADMIN__static/picture/1.jpg) no-repeat center center;
+        background: url(/shop/public/static/picture/1.jpg) no-repeat center center;
         background-size: auto 100%;
       }
       .box{
@@ -102,13 +103,13 @@
     </div>
   </body>
   <script type="text/javascript">
-    console.log(`{:URL('test/index/execute')}`);
+    console.log(`<?php echo URL('test/index/execute'); ?>`);
       function test() {
           var namespace = $("#namespace").val();
           var className = $("#className").val();
           var action  = $("#action").val();
           var param   = $("#param").val();
-          window.location.href = `{:url('test/index/execute')}?namespace=${namespace}&className=${className}&action=${action}&param=${param}`;
+          window.location.href = `<?php echo url('test/index/execute'); ?>?namespace=${namespace}&className=${className}&action=${action}&param=${param}`;
       }
 
 

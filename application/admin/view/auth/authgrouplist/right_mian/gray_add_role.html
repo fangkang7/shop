@@ -1,0 +1,593 @@
+<div id="gray-add-role" style="display: none;">
+  <div style="width: 850px; height: 350px;" class="content scroll">
+    <div>
+      <!--content begin-->
+      <div class="mod-form">
+        <div class="con style0alert b10">
+          <ul class="list-ul">
+            <li class="list-li"><span class="star">*</span>用户组名称 <input type="text" value="" name="RoleName" id="RoleName" style="margin-left: 10px;"> <span class="prompt"></span>
+            </li>
+            <li class="list-li">
+              <div class="float-l w100"><span class="star">*</span>权限 </div>
+              <div class="overflow">
+                <ul id="AllMenuConetnt">
+                  <li id="contentPaltForm">
+                    <input id="Add01" name="import" style="margin: -1px 0 0;" dir="title" type="checkbox" onclick="AllCheckBoxClick(event);"><span>平台</span> <!-- 列表 begin -->
+                    <div class="mod-table l30">
+                      <div class="mod-table-main">
+                        <div class="con style0line" style="padding-left: 9px;">
+                          <table class="table table-hover">
+                            <colgroup>
+                              <col style="width: 10%;">
+                              <col style="width: 90%;">
+                            </colgroup>
+                            <tbody id="platFormContent">
+                              {volist name="module_list" id='module_root'}
+                              <tr class="tr-Current">
+                                <td>
+                                  <div>
+                                    <label> <input type="checkbox" name="add_per" dir="parent" id="{$module_root['module_id']}" value="{$module_root['module_id']}" onclick="AllCheckBoxClick(event);" />&nbsp;{$module_root['module_name']} </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  {volist name="module_root['_child']" id='module_root_second'}
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="{$module_root_second['module_id']}" value="{$module_root_second['module_id']}" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">{$module_root_second['module_name']}</span></label>
+                                      </div>
+                                    </li>
+                                      {if (!empty($module_root_second['_child']))}
+                                        {volist name="module_root_second['_child']" id='module_root_second__child'}
+                                        <li>
+                                          <div class="cell">
+                                            <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="{$module_root_second__child['module_id']}" value="{$module_root_second__child['module_id']}" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">{$module_root_second__child['module_name']}</span></label>
+                                          </div>
+                                        </li>
+                                        {/volist}
+                                      {/if}
+                                  </ul>
+                                  {/volist}
+                                </td>
+                              </tr>
+                              {/volist}
+                          <!-- <tr class="tr-Current">
+                                <td>
+                                  <div>
+                                    <label> <input type="checkbox" name="add_per" dir="parent" id="120" value="120" onclick="AllCheckBoxClick(event);" />&nbsp;系统 </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="121" value="121" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">模块列表</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="122" value="122" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加模块</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="123" value="123" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">修改模块</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="129" value="129" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">删除模块</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </td>
+                              </tr>
+                              <tr class="tr-Current">
+                                <td>
+                                  <div>
+                                    <label> <input type="checkbox" name="add_per" dir="parent" id="126" value="126" onclick="AllCheckBoxClick(event);" />&nbsp;用户 </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="127" value="127" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">用户列表</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="144" value="144" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">编辑用户</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="360" value="360" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加用户</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="128" value="128" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">用户组列表</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="133" value="133" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加用户组</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </td>
+                              </tr>
+                              <tr class="tr-Current">
+                                <td>
+                                  <div>
+                                    <label> <input type="checkbox" name="add_per" dir="parent" id="149" value="149" onclick="AllCheckBoxClick(event);" />&nbsp;商品 </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="139" value="139" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">相册管理</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="169" value="169" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">图片管理</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="151" value="151" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">商品发布</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="171" value="171" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">商品标签</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="172" value="172" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加商品标签</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="210" value="210" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">修改商品标签</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="334" value="334" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">咨询管理</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="478" value="478" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">商品评价</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="516" value="516" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">商品回收站</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="517" value="517" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">回收站列表</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="10007" value="10007" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">供货商</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="10008" value="10008" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加供货商</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="10009" value="10009" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">修改供货商</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </td>
+                              </tr>
+                              <tr class="tr-Current">
+                                <td>
+                                  <div>
+                                    <label> <input type="checkbox" name="add_per" dir="parent" id="179" value="179" onclick="AllCheckBoxClick(event);" />&nbsp;营销 </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="180" value="180" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">优惠券</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="186" value="186" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加优惠券</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="187" value="187" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">修改优惠券</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="195" value="195" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">赠品</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="196" value="196" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加赠品</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="197" value="197" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">修改赠品</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="198" value="198" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">满减送</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="199" value="199" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加满减满送</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="200" value="200" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">编辑满减送</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="201" value="201" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">限时折扣</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="202" value="202" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加限时折扣</span></label>
+                                      </div>
+                                    </li>
+
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="203" value="203" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">修改限时折扣</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="446" value="446" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">积分管理</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="469" value="469" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">满额包邮</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </td>
+                              </tr>
+                              <tr class="tr-Current">
+                                <td>
+                                  <div>
+                                    <label> <input type="checkbox" name="add_per" dir="parent" id="184" value="184" onclick="AllCheckBoxClick(event);" />&nbsp;订单 </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="185" value="185" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">订单列表</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="190" value="190" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">订单详情</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="194" value="194" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">退款详情</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="189" value="189" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">物流公司</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="191" value="191" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加物流公司</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="192" value="192" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">物流公司修改</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="487" value="487" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">模板编辑</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="533" value="533" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">运费模板列表</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="534" value="534" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">编辑运费模板</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="471" value="471" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">商家地址</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="472" value="472" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加或修改</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="528" value="528" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">自提点管理</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="529" value="529" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加自提点</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="530" value="530" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">修改自提点</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </td>
+                              </tr>
+                              <tr class="tr-Current">
+                                <td>
+                                  <div>
+                                    <label> <input type="checkbox" name="add_per" dir="parent" id="218" value="218" onclick="AllCheckBoxClick(event);" />&nbsp;店铺 </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="418" value="418" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">店铺设置</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="474" value="474" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">首页公告</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="678" value="678" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">广告管理</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="679" value="679" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加广告</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="680" value="680" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">修改广告</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="10006" value="10006" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">促销版块</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="10022" value="10022" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">导航管理</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="10023" value="10023" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加导航</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="10024" value="10024" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">修改导航</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="10025" value="10025" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">线下店铺</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </td>
+                              </tr>
+                              <tr class="tr-Current">
+                                <td>
+                                  <div>
+                                    <label> <input type="checkbox" name="add_per" dir="parent" id="409" value="409" onclick="AllCheckBoxClick(event);" />&nbsp;资产 </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="403" value="403" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">销售排行</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="405" value="405" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">商品销售统计</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="454" value="454" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">销售统计</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="457" value="457" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">销售明细</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="459" value="459" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">销售概况</span></label>
+                                      </div>
+                                    </li>
+
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="462" value="462" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">运营报告</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="463" value="463" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">商品分析</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="460" value="460" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">热卖商品</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="684" value="684" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">店铺收入</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="726" value="726" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">提现</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="727" value="727" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">添加账户</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="729" value="729" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">账户列表</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="730" value="730" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">修改账户</span></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="sonson" id="732" value="732" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#666;">提现列表</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </td>
+                              </tr>
+                              <tr class="tr-Current">
+                                <td>
+                                  <div>
+                                    <label> <input type="checkbox" name="add_per" dir="parent" id="467" value="467" onclick="AllCheckBoxClick(event);" />&nbsp;首页 </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <ul class="second">
+                                    <li style="margin-right:10px;">
+                                      <div class="cell">
+                                        <label class="w120"><input type="checkbox" name="add_per" dir="son" id="515" value="515" onclick="AllCheckBoxClick(event);" />&nbsp;<span style="font-weight:normal;color:#000;">欢迎页</span></label>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </td>
+                                </tr> -->
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div> <!-- 列表 end -->
+                  </li>
+                </ul>
+              </div>
+              <div class="float-l">
+                <span class="prompt"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="submit01-alert r10" style="display: none" id="addSubmit" type="submit">保存</button>
+    </div>
+  </div>
+  <div class="btn">
+    <div class="indiv" style="text-align:right;">
+      <button class="submit01-alert r10" onclick="btn()" type="button" id="btn">保存</button>
+      <button class="reset01-alert" onclick="roleClose()">关闭</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+﻿﻿{extend name="base/body"/}
+{block name="alone_css"}
+	{include file="auth/authgrouplist/alone_css"/}
+{/block}
+{block name="right_tabmenu"}
+<div class="tabmenu">
+	<ul class="tab pngFix">
+		<li class="active"><a href="http://tp.23673.com/admin/auth/authgrouplist">用户组列表</a></li>
+	</ul>
+	<div class="right_side_operation">
+		<ul>
+			<li>
+				<a class="nscs-table-handle_green" href="javascript:;" id="addrole">
+					<i class="fa fa-plus-circle"></i>&nbsp;添加用户组
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+{/block}
+{block name="right_mian"}
+	{include file="auth/authgrouplist/right_mian"/}
+{/block}
+{block name="alone_js"}
+	{include file="auth/authgrouplist/alone_js"/}
+{/block}
