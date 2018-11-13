@@ -12,7 +12,7 @@ class UserRole extends Model
     /**
      * 用户角色表关联用户组
      */
-    public function UserGroup()
+    public function userGroup()
     {
         /*
          * 第一个参数是关联的模型

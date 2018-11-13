@@ -6,7 +6,7 @@ use think\Controller;
 use data\model\user\User;
 use data\service\UserService;
 use Request;
-use Db, Log;
+use Db;
 use think\captcha\Captcha;
 use data\Validate\UserValidate;
 
@@ -36,35 +36,32 @@ class Login extends Controller
         if (Request::isPost()) {
             $username = Request::param('username');
             $password = Request::param('password');
-            // $userVaildata = new UserValidate;
+            $userVaildata = new UserValidate;
+            $data = [
+                'verify' => Request::param('verify');
+            ];
             // 对验证类进行验证
-            // if (!$userVaildata->check(Request::param())) {
-            //     return json([
-            //         'code' => USER_LOGIN_VALIDATE_ERROR,
-            //         //$userVaildata->getError()可以获取到具体的错误信息
-            //         'msg' => $userVaildata->getError()
-            //     ]);
-            // }
+            if (!$userVaildata->check($data)) {
+                return json([
+                    'code' => USER_LOGIN_VALIDATE_ERROR,
+                    //$userVaildata->getError()可以获取到具体的错误信息
+                    'msg' => $userVaildata->getError()
+                ]);
+            }
 
             return ajaxRuturn($this->userService->login($username, $password));
         }
         return $this->fetch();
     }
 
+
+
     /**
      * 验证码验证
      */
     public function verify()
     {
-        $config = [
-            // 验证码字体大小
-            'fontSize' => 30,
-            // 验证码位数
-            'length' => 3,
-            // 关闭验证码杂点
-            'useNoise' => false,
-        ];
-        $captcha = new Captcha($config);
+        $captcha = new Captcha();
         return $captcha->entry();
     }
 

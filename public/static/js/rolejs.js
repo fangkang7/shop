@@ -1,4 +1,5 @@
 ﻿function roleClose() {
+    console.log('123')
     popupClose('gray-add-role');
 };
 function btn() {

@@ -34,7 +34,16 @@ return [
     -2002 => [
         'code' => 'ERROR_USER_GROUP',
         'msg'  => '用户组名操作失败'
-    ]
+    ],
+    // 商品操作
+    -4001 => [
+        'code' => 'GOODS_QRCODE_UPLOAD_ERROR',
+        'msg'  => '商品图片上传失败'
+    ],
+    -4002 => [
+        'code' => 'GOODS_ERROR',
+        'msg'  => '商品不存在'
+    ],
     // 'code' => [
     //     'SUCCESS'                     => 1,
     //     'USER_LOGIN_VALIDATE_ERROR'   => -1000,

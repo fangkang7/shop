@@ -10,5 +10,5 @@
 // +----------------------------------------------------------------------
 
 return [
-    \data\console\AdminBaseController::class
+    \data\console\BaseController::class
 ];

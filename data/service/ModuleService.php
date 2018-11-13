@@ -53,7 +53,6 @@ class ModuleService
         // 获取的二级权限
         $second = Rbac::getModuleGroup($where,$whereOr);
 
-        Log::write($second);
         // 如果点击的是头部导航栏，那么左边导航的二级导航就是显示的是第一个的内容
         $moduleId = ($moduleInfo['pid'] == 0) ? $second[0]['module_id'] : $moduleInfo['module_id'];
 

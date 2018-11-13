@@ -9,8 +9,9 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-
+Route::rule('admin/login/verify','admin/login/verify');
 Route::rule('admin/login/:action','admin/login/login');
+
 
 Route::rule('admin/:controller/:action', 'admin/:controller/:action')->middleware(\app\http\AuthMiddleware::class);
 

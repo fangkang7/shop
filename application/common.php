@@ -17,6 +17,7 @@ use think\facade\Log;
 // 定义data命名空间
 Loader::addNamespace('data', Loader::getRootPath() . 'data' . DIRECTORY_SEPARATOR);
 
+define('ROOT', __DIR__.'\../');
 
 // 应用公共文件
 function ajaxRuturn($code,$data=[]){

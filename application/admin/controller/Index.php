@@ -4,6 +4,7 @@ namespace app\admin\controller;
 
 use think\Controller;
 use Request;
+use think\captcha\Captcha;
 
 class Index extends Base
 {
@@ -18,6 +19,8 @@ class Index extends Base
 
         // return json($this->view->data);
         return $this->fetch();
+        // $captcha = new Captcha();
+        // return $captcha->entry();
     }
 
     public function hello()

@@ -1,4 +1,4 @@
-<?php /*a:13:{s:63:"D:\PHPTutorial\WWW\shop\application\admin\view\index\index.html";i:1541677182;s:61:"D:\PHPTutorial\WWW\shop\application\admin\view\base\body.html";i:1540820104;s:61:"D:\PHPTutorial\WWW\shop\application\admin\view\base\head.html";i:1541655284;s:73:"D:\PHPTutorial\WWW\shop\application\admin\view\index\index\alone_css.html";i:1541655497;s:63:"D:\PHPTutorial\WWW\shop\application\admin\view\base\header.html";i:1541833621;s:61:"D:\PHPTutorial\WWW\shop\application\admin\view\base\left.html";i:1541834580;s:66:"D:\PHPTutorial\WWW\shop\application\admin\view\base\ncsc_path.html";i:1539702082;s:64:"D:\PHPTutorial\WWW\shop\application\admin\view\base\tabmenu.html";i:1541655445;s:74:"D:\PHPTutorial\WWW\shop\application\admin\view\index\index\right_mian.html";i:1541655519;s:61:"D:\PHPTutorial\WWW\shop\application\admin\view\base\page.html";i:1541655430;s:65:"D:\PHPTutorial\WWW\shop\application\admin\view\base\password.html";i:1541655439;s:72:"D:\PHPTutorial\WWW\shop\application\admin\view\index\index\alone_js.html";i:1541655511;s:68:"D:\PHPTutorial\WWW\shop\application\admin\view\base\common_base.html";i:1540015940;}*/ ?>
+<?php /*a:13:{s:63:"D:\PHPTutorial\WWW\shop\application\admin\view\index\index.html";i:1541677182;s:61:"D:\PHPTutorial\WWW\shop\application\admin\view\base\body.html";i:1542012909;s:61:"D:\PHPTutorial\WWW\shop\application\admin\view\base\head.html";i:1542014107;s:73:"D:\PHPTutorial\WWW\shop\application\admin\view\index\index\alone_css.html";i:1541655497;s:63:"D:\PHPTutorial\WWW\shop\application\admin\view\base\header.html";i:1541833621;s:61:"D:\PHPTutorial\WWW\shop\application\admin\view\base\left.html";i:1541834580;s:66:"D:\PHPTutorial\WWW\shop\application\admin\view\base\ncsc_path.html";i:1539702082;s:64:"D:\PHPTutorial\WWW\shop\application\admin\view\base\tabmenu.html";i:1541655445;s:74:"D:\PHPTutorial\WWW\shop\application\admin\view\index\index\right_mian.html";i:1541655519;s:61:"D:\PHPTutorial\WWW\shop\application\admin\view\base\page.html";i:1541655430;s:65:"D:\PHPTutorial\WWW\shop\application\admin\view\base\password.html";i:1541655439;s:72:"D:\PHPTutorial\WWW\shop\application\admin\view\index\index\alone_js.html";i:1541655511;s:68:"D:\PHPTutorial\WWW\shop\application\admin\view\base\common_base.html";i:1542012759;}*/ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,17 +26,17 @@
 	.is-upgrade{width: 7px;height: 7px;background: red;border-radius: 50%;position: absolute;z-index: 5;bottom: 9px;display: none;}
 	.modal-header:hover{cursor: move;}
 	</style>
-<script src="/shop/public//static/js/jquery.js"></script>
-<script src="/shop/public//static/js/bootstrap.js"></script>
-<script src="/shop/public//static/js/bootstrapswitch.js"></script>
-<script src="/shop/public//static/js/simple.switch.js"></script>
-<script src="/shop/public//static/js/jquery.unobtrusive-ajax.min.js"></script>
-<script src="/shop/public//static/js/common.js"></script>
-<script src="/shop/public//static/js/seller.js"></script>
-<script src="/shop/public//static/js/load_task.js"></script>
-<script src="/shop/public//static/js/load_bottom.js" type="text/javascript"></script>
-<script src="/shop/public//static/js/jquery-ui.min.js"></script>
-<script src="/shop/public//static/js/ns_tool.js"></script>
+<script src="/shop/public/static/js/jquery.js"></script>
+<script src="/shop/public/static/js/bootstrap.js"></script>
+<script src="/shop/public/static/js/bootstrapswitch.js"></script>
+<script src="/shop/public/static/js/simple.switch.js"></script>
+<script src="/shop/public/static/js/jquery.unobtrusive-ajax.min.js"></script>
+<script src="/shop/public/static/js/common.js"></script>
+<script src="/shop/public/static/js/seller.js"></script>
+<script src="/shop/public/static/js/load_task.js"></script>
+<!--<script src="/shop/public/static/js/load_bottom.js"></script>-->
+<script src="/shop/public/static/js/jquery-ui.min.js"></script>
+<script src="/shop/public/static/js/ns_tool.js"></script>
 <script>
 		/**
 	 * 六星开源商城系统 - 团队十年电商经验汇集巨献!
@@ -334,7 +334,8 @@
   <a href="javascript:;">欢迎页</a>
 </div>
 
-            <div class="tabmenu">
+            
+                <div class="tabmenu">
   <ul class="tab pngFix">
     <li class="active"><a href="http://tp.23673.com/admin/index/index">欢迎页</a></li>
   </ul>
@@ -346,6 +347,7 @@
 </div>
 <hr class="tabmenu_hr" style="border:1px solid #00C0FF;margin:0 0px 10px 20px;" />
 
+            
 
             
 	<div class="main">
@@ -864,7 +866,7 @@
 
 
       <!-- 尾部js -->
-      <script src="__PUBLIC__/static/js/ns_common_base.js"></script>
+      <script src="/shop/public//static/js/ns_common_base.js"></script>
 <script>
   $(function() {
     $('.index-sitemap > a').bind("click", function() {

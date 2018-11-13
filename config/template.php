@@ -35,5 +35,6 @@ return [
     // 配置样式
     'tpl_replace_string' => [
         '__ADMIN__'=> dirname($_SERVER['SCRIPT_NAME']).'/public/',
+        '__ROOT__' => dirname($_SERVER['SCRIPT_NAME'])
     ]
 ];

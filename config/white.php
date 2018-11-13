@@ -6,7 +6,6 @@ return [
     'admin' => [
         'login' => [
             'login',
-            'execute',
             'verify'
         ],
     ],

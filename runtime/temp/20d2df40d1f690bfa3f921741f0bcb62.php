@@ -1,4 +1,4 @@
-<?php /*a:1:{s:63:"D:\PHPTutorial\WWW\shop\application\admin\view\login\login.html";i:1541389771;}*/ ?>
+<?php /*a:1:{s:63:"D:\PHPTutorial\WWW\shop\application\admin\view\login\login.html";i:1542021012;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,6 +44,7 @@
     <div class="login-logo">
       <a href="#"><b>咔咔商城系统</b></a>
     </div>
+    
     <div class="login-box-body">
       <p class="login-box-msg">后台管理</p>
       <div class="form-group has-feedback">
@@ -97,7 +98,7 @@
     });
     function fleshVerify() {
       //重载验证码
-      $('#imgVerify').attr('src', '<?php echo url('admin/login/verify'); ?>' );
+      $('#imgVerify').attr('src', "<?php echo url('admin/login/verify'); ?>" );
     }
     jQuery.fn.center = function() {
       this.css("position", "absolute");

@@ -21,7 +21,9 @@
           <!-- 导航栏右边 -->
           <div class="RIGHT">
             {include file="base/ncsc_path"/}
-            {include file="base/tabmenu"/}
+            {block name="right_tabmenu"}
+                {include file="base/tabmenu"/}
+            {/block}
 
             {block name="right_mian"}
             <div class="main">

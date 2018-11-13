@@ -8,6 +8,7 @@ class AuthMiddleware
 {
     public function handle($request, \Closure $next)
     {
+        Log::write('进入了权限验证');
         //规避单元测试模块的正常访问
         if(request()->module() == 'test'){
             return $next($request);

@@ -11,6 +11,7 @@ class RepetitionMiddleware
 {
     public function handle($request, \Closure $next)
     {
+        Log::write('进入了规避重复请求');
         //获取最后一次的请求时间
         Session::get('LAST_TIEM');
         //对第一次请求没有LAST_TIEM这个值做处理

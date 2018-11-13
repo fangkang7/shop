@@ -27,7 +27,7 @@
                         <td>
             `;
             if (data["data"][i]["user_headimg"] == "") {
-                html += `<img src="__PUBLIC__/static/picture/default_user_portrait.gif" class="head-portrait"/>`;
+                html += `<img src="__ADMIN__/static/picture/default_user_portrait.gif" class="head-portrait"/>`;
             } else {
                 html += `<img src="${data["data"][i]["user_headimg"]}" class="head-portrait"/>`;
             }
