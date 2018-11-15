@@ -1,0 +1,3953 @@
+---------------------------------------------------------------
+[ 2018-11-14T16:25:37+08:00 ] ::1 POST localhost/shop/index/index/index.html
+[运行时间：0.059571s] [吞吐率：16.79req/s] [内存消耗：1,879.21kb] [文件加载：78]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYm8AfAUpKIYT0buh',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '189',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]没有文件被上传！[D:\PHPTutorial\WWW\shop\thinkphp\library\think\Request.php:1256]
+---------------------------------------------------------------
+[ 2018-11-14T16:25:45+08:00 ] ::1 POST localhost/shop/index/index/index.html
+[ info ] array (
+  'name' => '咔咔.jpg',
+  'type' => 'image/jpeg',
+  'tmp_name' => 'C:\\Windows\\php172B.tmp',
+  'error' => 0,
+  'size' => 47657,
+)
+---------------------------------------------------------------
+[ 2018-11-14T16:25:45+08:00 ] ::1 POST localhost/shop/index/index/index.html
+[运行时间：0.058594s] [吞吐率：17.07req/s] [内存消耗：1,940.30kb] [文件加载：79]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybe2mXUSLcEvUL1zX',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '47842',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\shop\application\index\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-14T16:29:05+08:00 ] ::1 POST localhost/shop/index/index/index.html
+[运行时间：0.083008s] [吞吐率：12.05req/s] [内存消耗：1,937.19kb] [文件加载：78]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMfWgDNG8jmadY6b4',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '47842',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\shop\application\index\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-14T16:49:42+08:00 ] ::1 POST localhost/shop/index/index/index.html
+[运行时间：0.112305s] [吞吐率：8.90req/s] [内存消耗：1,937.19kb] [文件加载：78]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJ26Jy2gISAUZRQ4b',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '47842',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\shop\application\index\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:24+08:00 ] ::1 GET localhost/shop/admin
+[运行时间：0.291992s] [吞吐率：3.42req/s] [内存消耗：3,333.39kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\shop\application\admin\view\index\index.html [ array (
+  0 => 'module_root',
+  1 => 'module_root_secode',
+  2 => 'module_list',
+  3 => 'pid',
+  4 => 'module_id',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053711s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.094726s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'Index'  AND `method` = 'index' ORDER BY `pid`,`sort` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` IN (0)  AND `pid` = 0  AND `module` = 'admin' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` = 467 ORDER BY `pid`,`sort` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (0) AND `module` = 'admin' AND `pid` = 467 ) OR ( `module` = 'admin' AND `is_control_auth` = 0 ) ORDER BY `pid`,`sort` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (0) AND `module` = 'admin' ) OR ( `module` = 'admin' AND `is_control_auth` = 0 ) ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:40+08:00 ] ::1 GET localhost/shop/admin/login/login
+[运行时间：0.074219s] [吞吐率：13.47req/s] [内存消耗：1,885.57kb] [文件加载：78]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login/<action>',
+  'route' => 'admin/login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'action' => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'login',
+)
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\shop\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:42+08:00 ] ::1 GET localhost.localhost/shop/admin/login/verify.html
+[ info ] 进入了规避重复请求
+---------------------------------------------------------------
+[ 2018-11-14T16:59:42+08:00 ] ::1 GET localhost.localhost/shop/admin/login/verify.html
+[ info ] 正常操作
+---------------------------------------------------------------
+[ 2018-11-14T16:59:42+08:00 ] ::1 GET localhost.localhost/shop/admin/login/verify.html
+[运行时间：0.107422s] [吞吐率：9.31req/s] [内存消耗：1,869.13kb] [文件加载：78]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login/verify',
+  'route' => 'admin/login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=12aniljpps2a4brm5h2967vqm1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/login/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost.localhost',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-14T16:59:44+08:00 ] ::1 POST localhost/shop/admin/login/login.html
+[ info ] 你进来了63
+---------------------------------------------------------------
+[ 2018-11-14T16:59:44+08:00 ] ::1 POST localhost/shop/admin/login/login.html
+[运行时间：0.486328s] [吞吐率：2.06req/s] [内存消耗：3,258.84kb] [文件加载：105]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login/<action>',
+  'route' => 'admin/login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'action' => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/login/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '38',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'kaka',
+  'password' => '123456',
+  'vertify' => '',
+  'action' => 'login',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001954s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.039062s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `user_name` = 'kaka' LIMIT 1 [ RunTime:0.005859s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_role` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_role` WHERE  `role_id` = 1  AND `role_status` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT `group_id`,`module_id_array` FROM `tp_user_group` WHERE  `group_status` = 1  AND `group_id` = 54 [ RunTime:0.006836s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `current_login_ip` = '::1' , `current_login_time` = '2018-11-14 16-59-44' , `last_login_time` = '2017-07-21 18:17:32'  WHERE  `uid` = 63 [ RunTime:0.017579s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:45+08:00 ] ::1 GET localhost/shop/admin/index/index.html
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T16:59:45+08:00 ] ::1 GET localhost/shop/admin/index/index.html
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T16:59:45+08:00 ] ::1 GET localhost/shop/admin/index/index.html
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T16:59:45+08:00 ] ::1 GET localhost/shop/admin/index/index.html
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T16:59:45+08:00 ] ::1 GET localhost/shop/admin/index/index.html
+[ info ] 权限不需要校验
+---------------------------------------------------------------
+[ 2018-11-14T16:59:45+08:00 ] ::1 GET localhost/shop/admin/index/index.html
+[运行时间：0.250977s] [吞吐率：3.98req/s] [内存消耗：3,482.02kb] [文件加载：105]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'index',
+  'action' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\shop\application\admin\view\index\index.html [ array (
+  0 => 'module_root',
+  1 => 'module_root_secode',
+  2 => 'module_list',
+  3 => 'pid',
+  4 => 'module_id',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.038086s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'index'  AND `method` = 'index' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'Index'  AND `method` = 'index' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276)  AND `pid` = 1277  AND `module` = 1278 ORDER BY `pid`,`sort` [ RunTime:0.004883s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` = 467 ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276) AND `module` = 1277 AND `pid` = 1278 ) OR ( `module` = 1279 AND `is_control_auth` = 1440 ) ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276) AND `module` = 1277 ) OR ( `module` = 1278 AND `is_control_auth` = 1279 ) ORDER BY `pid`,`sort` [ RunTime:0.003906s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:45+08:00 ] ::1 GET localhost/shop/static/picture/%E5%85%AD%E6%98%9F%E5%BC%80%E6%BA%90%E5%95%86%E5%9F%8E_home.png
+[运行时间：0.053711s] [吞吐率：18.62req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:45+08:00 ] ::1 GET localhost/shop/static/picture/orange_picture.png
+[运行时间：0.045898s] [吞吐率：21.79req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:45+08:00 ] ::1 GET localhost/shop/static/picture/promoote_snapup.png
+[运行时间：0.064453s] [吞吐率：15.52req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:46+08:00 ] ::1 GET localhost/shop/static/picture/green_giftbag.png
+[运行时间：0.041016s] [吞吐率：24.38req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:46+08:00 ] ::1 GET localhost/shop/static/picture/orange_email.png
+[运行时间：0.043945s] [吞吐率：22.76req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:46+08:00 ] ::1 GET localhost/shop/static/picture/green_list.png
+[运行时间：0.064454s] [吞吐率：15.51req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:46+08:00 ] ::1 GET localhost/shop/static/picture/green_phone.png
+[运行时间：0.063476s] [吞吐率：15.75req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:46+08:00 ] ::1 GET localhost/shop/static/picture/orange_shield.png
+[运行时间：0.062500s] [吞吐率：16.00req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/goodslist.html
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/goodslist.html
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/goodslist.html
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/goodslist.html
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/goodslist.html
+[ info ] 权限不需要校验
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/goodslist.html
+[运行时间：0.272461s] [吞吐率：3.67req/s] [内存消耗：3,553.76kb] [文件加载：108]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => 'goodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => 'goodslist',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\shop\application\admin\view\goods\goodslist.html [ array (
+  0 => 'module_root',
+  1 => 'module_root_secode',
+  2 => 'module_list',
+  3 => 'pid',
+  4 => 'module_id',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013672s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = 'goodslist' ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'Goods'  AND `method` = 'goodslist' ORDER BY `pid`,`sort` [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276)  AND `pid` = 1277  AND `module` = 1278 ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` = 149 ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276) AND `module` = 1277 AND `pid` = 1278 ) OR ( `module` = 1279 AND `is_control_auth` = 1440 ) ORDER BY `pid`,`sort` [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276) AND `module` = 1277 ) OR ( `module` = 1278 AND `is_control_auth` = 1279 ) ORDER BY `pid`,`sort` [ RunTime:0.024414s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/product.css
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/product.css
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/product.css
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/product.css
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/wdatepicker.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/wdatepicker.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/wdatepicker.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/product.css
+[运行时间：0.126953s] [吞吐率：7.88req/s] [内存消耗：3,182.86kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/goodslist.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'css',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013671s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.022461s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/wdatepicker.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/wdatepicker.js
+[运行时间：0.200195s] [吞吐率：5.00req/s] [内存消耗：3,182.72kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/goodslist.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004883s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.036132s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[运行时间：0.241211s] [吞吐率：4.15req/s] [内存消耗：3,182.72kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/goodslist.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004883s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.038086s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002929s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T16:59:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[运行时间：0.307617s] [吞吐率：3.25req/s] [内存消耗：3,182.72kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/goodslist.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003906s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.041992s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.003906s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:52+08:00 ] ::1 POST localhost/shop/admin/goods/goodslist.html
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T16:59:52+08:00 ] ::1 POST localhost/shop/admin/goods/goodslist.html
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T16:59:52+08:00 ] ::1 POST localhost/shop/admin/goods/goodslist.html
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T16:59:52+08:00 ] ::1 POST localhost/shop/admin/goods/goodslist.html
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T16:59:52+08:00 ] ::1 POST localhost/shop/admin/goods/goodslist.html
+[ info ] 权限不需要校验
+---------------------------------------------------------------
+[ 2018-11-14T16:59:52+08:00 ] ::1 POST localhost/shop/admin/goods/goodslist.html
+[运行时间：0.404297s] [吞吐率：2.47req/s] [内存消耗：3,546.27kb] [文件加载：112]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => 'goodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/goodslist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '89',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page_index' => '1',
+  'page_size' => '20',
+  'state' => '',
+  'goods_name' => '',
+  'category_id_1' => '',
+  'category_id_2' => '',
+  'category_id_3' => '',
+  'controller' => 'goods',
+  'action' => 'goodslist',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = 'goodslist' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'Goods'  AND `method` = 'goodslist' ORDER BY `pid`,`sort` [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276)  AND `pid` = 1277  AND `module` = 1278 ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` = 149 ORDER BY `pid`,`sort` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276) AND `module` = 1277 AND `pid` = 1278 ) OR ( `module` = 1279 AND `is_control_auth` = 1440 ) ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276) AND `module` = 1277 ) OR ( `module` = 1278 AND `is_control_auth` = 1279 ) ORDER BY `pid`,`sort` [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:0.037109s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  ( 1 = 1 ) LIMIT 0,20 [ RunTime:0.005860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_album_picture` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_album_picture` WHERE  `pic_id` IN (1844,1847,1849,1851,1853,1855,1857,1859,1861) [ RunTime:0.006836s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  ( 1 = 1 ) LIMIT 1 [ RunTime:0.003906s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:59:52+08:00 ] ::1 GET localhost/shop/upload/goods/15006017871014.jpg
+[运行时间：0.046875s] [吞吐率：21.33req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:52+08:00 ] ::1 GET localhost/shop/upload/goods/15006019251104.jpg
+[运行时间：0.041016s] [吞吐率：24.38req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:52+08:00 ] ::1 GET localhost/shop/upload/goods/15006018501054.jpg
+[运行时间：0.045898s] [吞吐率：21.79req/s] [内存消耗：1,466.50kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-14T16:59:58+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T16:59:58+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T16:59:58+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T16:59:58+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T16:59:58+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[ info ] 权限不需要校验
+---------------------------------------------------------------
+[ 2018-11-14T16:59:58+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[运行时间：0.220703s] [吞吐率：4.53req/s] [内存消耗：3,423.37kb] [文件加载：108]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => 'addgoods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/goodslist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => 'addgoods',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = 'addgoods' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'Goods'  AND `method` = 'addgoods' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276)  AND `pid` = 1277  AND `module` = 1278 ORDER BY `pid`,`sort` [ RunTime:0.003907s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` = 151 ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276) AND `module` = 1277 AND `pid` = 1278 ) OR ( `module` = 1279 AND `is_control_auth` = 1440 ) ORDER BY `pid`,`sort` [ RunTime:0.003907s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276) AND `module` = 1277 ) OR ( `module` = 1278 AND `is_control_auth` = 1279 ) ORDER BY `pid`,`sort` [ RunTime:0.003906s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[ info ] 权限不需要校验
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/addgoods.html
+[运行时间：0.237305s] [吞吐率：4.21req/s] [内存消耗：3,815.81kb] [文件加载：109]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => 'addgoods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/goodslist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => 'addgoods',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\shop\application\admin\view\goods\addgoods.html [ array (
+  0 => 'module_root',
+  1 => 'module_root_secode',
+  2 => 'module_list',
+  3 => 'pid',
+  4 => 'module_id',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000976s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.028321s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = 'addgoods' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'Goods'  AND `method` = 'addgoods' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276)  AND `pid` = 1277  AND `module` = 1278 ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module_id` = 151 ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276) AND `module` = 1277 AND `pid` = 1278 ) OR ( `module` = 1279 AND `is_control_auth` = 1440 ) ORDER BY `pid`,`sort` [ RunTime:0.004883s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  ( `module_id` IN (120,121,122,123,129,126,127,144,360,1200,1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,1230,1231,1232,1233,1234,1235,1236,1237,1238,1239,1290,1291,1292,1293,1294,1295,1296,1297,1298,1299,1260,1261,1262,1263,1264,1265,1266,1267,1268,1269,1270,1271,1272,1273,1274,1275,1276) AND `module` = 1277 ) OR ( `module` = 1278 AND `is_control_auth` = 1279 ) ORDER BY `pid`,`sort` [ RunTime:0.003907s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/goods_create.css
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/product.css
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/goods_create.css
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/product.css
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/goods_create.css
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/product.css
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/product.css
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/defau.css
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/defau.css
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/defau.css
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/base.css
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/product.css
+[运行时间：0.134765s] [吞吐率：7.42req/s] [内存消耗：3,182.84kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'css',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012696s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.026367s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/base.css
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/base.css
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/goods_create.css
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/goods_create.css
+[运行时间：0.227539s] [吞吐率：4.39req/s] [内存消耗：3,182.84kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'css',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.045899s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/defau.css
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/select_category_next.css
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/defau.css
+[运行时间：0.254883s] [吞吐率：3.92req/s] [内存消耗：3,182.84kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'css',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/select_category_next.css
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/base.css
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/select_category_next.css
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/editgoods.css
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/base.css
+[运行时间：0.318359s] [吞吐率：3.14req/s] [内存消耗：3,182.84kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'css',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.041016s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002929s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/editgoods.css
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/editgoods.css
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/select_category_next.css
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.config.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.config.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.config.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/select_category_next.css
+[运行时间：0.245117s] [吞吐率：4.08req/s] [内存消耗：3,182.84kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'css',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.037109s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/editgoods.css
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.all.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.all.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.all.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/editgoods.css
+[运行时间：0.238281s] [吞吐率：4.20req/s] [内存消耗：3,182.84kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'css',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.037109s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002929s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.config.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/zh-cn.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/zh-cn.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/zh-cn.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.config.js
+[运行时间：0.239258s] [吞吐率：4.18req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:50+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.all.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.all.js
+[运行时间：0.229492s] [吞吐率：4.36req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.028321s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/zh-cn.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/image_common.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/image_common.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/zh-cn.js
+[运行时间：0.222656s] [吞吐率：4.49req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005859s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.028320s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.000977s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/image_common.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[运行时间：0.205078s] [吞吐率：4.88req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003907s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.017578s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/image_common.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/kindeditor-min.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/kindeditor-min.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/kindeditor-min.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/image_common.js
+[运行时间：0.203125s] [吞吐率：4.92req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/kindeditor-min.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jscommon.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jscommon.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jscommon.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/art_dialog.source.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/art_dialog.source.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/jquery.gridly.css
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/art_dialog.source.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/kindeditor-min.js
+[运行时间：0.189453s] [吞吐率：5.28req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.038085s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.000977s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jscommon.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/jquery.gridly.css
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jscommon.js
+[运行时间：0.212891s] [吞吐率：4.70req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004883s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.040039s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002929s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/art_dialog.source.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/sample.css
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/sample.css
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/sample.css
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/art_dialog.source.js
+[运行时间：0.232422s] [吞吐率：4.30req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004883s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.041016s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.000977s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/jquery.gridly.css
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/jquery.ui.css
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/jquery.ui.css
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/jquery.ui.css
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/file_upload.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/file_upload.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/file_upload.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/jquery.gridly.css
+[运行时间：0.316406s] [吞吐率：3.16req/s] [内存消耗：3,182.84kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'css',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005860s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002929s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/sample.css
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/init_address.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/init_address.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/init_address.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/sample.css
+[运行时间：0.259765s] [吞吐率：3.85req/s] [内存消耗：3,182.84kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'css',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013672s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.041016s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/jquery.ui.css
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/release_good_second.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/release_good_second.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/release_good_second.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/css/jquery.ui.css
+[运行时间：0.321289s] [吞吐率：3.11req/s] [内存消耗：3,182.84kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'css',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014648s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/file_upload.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/goods_sku_create.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/goods_sku_create.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/goods_sku_create.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/file_upload.js
+[运行时间：0.349609s] [吞吐率：2.86req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/init_address.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.totop.min.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.totop.min.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:51+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.totop.min.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/init_address.js
+[运行时间：0.353516s] [吞吐率：2.83req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012696s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/release_good_second.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.all.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.all.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.all.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/release_good_second.js
+[运行时间：0.341797s] [吞吐率：2.93req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.036132s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/goods_sku_create.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/drag-arrange.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/drag-arrange.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/drag-arrange.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/goods_sku_create.js
+[运行时间：0.324218s] [吞吐率：3.08req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000977s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.totop.min.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.ui.widget.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.ui.widget.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.ui.widget.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.totop.min.js
+[运行时间：0.308594s] [吞吐率：3.24req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.all.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ueditor.all.js
+[运行时间：0.292969s] [吞吐率：3.41req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/drag-arrange.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/zh-cn.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/zh-cn.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/zh-cn.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/drag-arrange.js
+[运行时间：0.291993s] [吞吐率：3.42req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000976s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.033204s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002929s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.ui.widget.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/iframe_tools.source.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/iframe_tools.source.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/iframe_tools.source.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.fileupload.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.fileupload.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.fileupload.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.ui.widget.js
+[运行时间：0.295898s] [吞吐率：3.38req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004883s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/zh-cn.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/material_managedialog.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/material_managedialog.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/material_managedialog.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/zh-cn.js
+[运行时间：0.225586s] [吞吐率：4.43req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/iframe_tools.source.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/iframe_tools.source.js
+[运行时间：0.247070s] [吞吐率：4.05req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.039063s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.fileupload.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.fileupload.js
+[运行时间：0.304688s] [吞吐率：3.28req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.037109s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.000976s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/material_managedialog.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/material_managedialog.js
+[运行时间：0.330078s] [吞吐率：3.03req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.004883s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[运行时间：0.315430s] [吞吐率：3.17req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.035157s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/image_common.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[运行时间：0.218750s] [吞吐率：4.57req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/image_common.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/image_common.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:52+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/image_common.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/image_common.js
+[运行时间：0.136718s] [吞吐率：7.31req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000976s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/kindeditor-min.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/kindeditor-min.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/kindeditor-min.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[运行时间：0.158203s] [吞吐率：6.32req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.038086s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002929s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/kindeditor-min.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/picture/default_goods_image_240.gif
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/picture/default_goods_image_240.gif
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/picture/default_goods_image_240.gif
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/kindeditor-min.js
+[运行时间：0.158203s] [吞吐率：6.32req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/picture/default_goods_image_240.gif
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jscommon.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jscommon.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jscommon.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/picture/default_goods_image_240.gif
+[运行时间：0.146484s] [吞吐率：6.83req/s] [内存消耗：3,183.00kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'picture',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'picture',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012696s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.032226s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.003906s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jscommon.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jscommon.js
+[运行时间：0.155273s] [吞吐率：6.44req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010742s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/art_dialog.source.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/art_dialog.source.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/art_dialog.source.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/art_dialog.source.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/art_dialog.source.js
+[运行时间：0.135743s] [吞吐率：7.37req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/sample.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/sample.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/sample.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/sample.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/iframe_tools.source.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/iframe_tools.source.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/iframe_tools.source.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/sample.js
+[运行时间：0.147461s] [吞吐率：6.78req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.037110s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001954s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/iframe_tools.source.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/iframe_tools.source.js
+[运行时间：0.156250s] [吞吐率：6.40req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.000976s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/material_managedialog.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/material_managedialog.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/material_managedialog.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/material_managedialog.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/material_managedialog.js
+[运行时间：0.128907s] [吞吐率：7.76req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.003906s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:53+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[运行时间：0.132813s] [吞吐率：7.53req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000977s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002930s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/file_upload.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/file_upload.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/file_upload.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/file_upload.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/file_upload.js
+[运行时间：0.125977s] [吞吐率：7.94req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001954s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.037109s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/init_address.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/init_address.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/init_address.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/init_address.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/init_address.js
+[运行时间：0.120117s] [吞吐率：8.33req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/release_good_second.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/release_good_second.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/release_good_second.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/release_good_second.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/release_good_second.js
+[运行时间：0.128906s] [吞吐率：7.76req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/goods_sku_create.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/goods_sku_create.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/goods_sku_create.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/goods_sku_create.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/goods_sku_create.js
+[运行时间：0.125977s] [吞吐率：7.94req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.totop.min.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.totop.min.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.totop.min.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.totop.min.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.totop.min.js
+[运行时间：0.130859s] [吞吐率：7.64req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.000976s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/drag-arrange.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/drag-arrange.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/drag-arrange.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/drag-arrange.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:54+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/drag-arrange.js
+[运行时间：0.126953s] [吞吐率：7.88req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/ajax_file_upload.js
+[运行时间：0.155274s] [吞吐率：6.44req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000977s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.040039s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.ui.widget.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.ui.widget.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.ui.widget.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.ui.widget.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.ui.widget.js
+[运行时间：0.130859s] [吞吐率：7.64req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.036133s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.000977s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.fileupload.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.fileupload.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.fileupload.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.fileupload.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.fileupload.js
+[运行时间：0.137696s] [吞吐率：7.26req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011719s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.040039s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001953s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/sample.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/sample.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/sample.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/sample.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/sample.js
+[运行时间：0.136719s] [吞吐率：7.31req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000977s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.043946s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.003906s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery-ui-private.js
+[运行时间：0.124023s] [吞吐率：8.06req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.001954s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] 进入了权限验证
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] 进入了唯一登录
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] 唯一登录进入了
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[ info ] $2y$10$60imXiwpYHqr5JgVfsES2uoNS26T/KkmKUeqTDRWsigQmSbecT44q
+---------------------------------------------------------------
+[ 2018-11-14T17:00:55+08:00 ] ::1 GET localhost/shop/admin/goods/__PUBLIC__/static/js/jquery.timers.js
+[运行时间：0.124024s] [吞吐率：8.06req/s] [内存消耗：3,182.70kb] [文件加载：100]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/<controller>/<action>',
+  'route' => 'admin/:controller/:action',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\http\\AuthMiddleware',
+        1 => NULL,
+      ),
+    ),
+  ),
+  'var' => 
+  array (
+    'controller' => 'goods',
+    'action' => '__PUBLIC__',
+    'static' => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qglvtgulij1gkllihtfmslbbf1; TOKEN63=02246a066c5d73af1fd23887476a736ebd65e784',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/shop/admin/goods/addgoods.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'controller' => 'goods',
+  'action' => '__PUBLIC__',
+  'static' => 'js',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=tp_shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `module` = 'admin'  AND `controller` = 'goods'  AND `method` = '__public__' ORDER BY `pid`,`sort` [ RunTime:0.002929s ]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\shop\data\provider\Rbac.php:97]

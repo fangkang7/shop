@@ -30,10 +30,10 @@ class Auth extends Base
             /**
              * 在做分页之前呢！我们需要知道从前台给我们发起的请求时都有什么参数
              * 'page_index' => '1',  用户当前的分页是第几页
-             * 'page_size' => '20',  当前页面显示的数据
-             * 'search_text' => '',  查询的条件
+             * 'page_size'  => '20',  当前页面显示的数据
+             * 'search_text'=> '',  查询的条件
              * 'controller' => 'auth',
-             * 'action' => 'userlist',
+             * 'action'     => 'userlist',
              */
             $page_index  = Request::param('page_index');
             $page_size   = Request::param('page_size');

@@ -5,6 +5,8 @@ namespace data\service;
 use data\service\BaseServcie;
 use data\model\goods\Goods;
 
+use Config,Qrcode;
+
 class GoodsService extends BaseServcie
 {
 
@@ -22,11 +24,12 @@ class GoodsService extends BaseServcie
     }
 
     /**
-     * 函数的含义说明
+     * 二维码更新
      *
+     * @param int $goods_id 商品id
      * @return array
      */
-    public function updategoodsqrcode($goods_id = 382)
+    public function updategoodsqrcode($goods_id = 383)
     {
         if(empty($goods_id)){
             return GOODS_ERROR;
@@ -34,6 +37,15 @@ class GoodsService extends BaseServcie
         // 需要生成二维码的地址
         $url = 'http://localhost/goods/goodinfo/goodsid=382';
         // 二维码保存地址
-        $path = ROOT.'upload\goods_qrcode\goods_qrcode_'.$goods_id.time().'.png';
+        $path = ROOT.Config::get('upload.goods_qrcode').'\goods_qrcode_'.$goods_id.time().'.png';
+
+        if(!Qrcode::getQRcode($url,$path)){
+            return GOODS_ERROR;
+        }
+
+        $result = Goods::where('goods_id',383)->update([
+            'QRcode'=> $path
+        ]);
+        return ($result) ? SUCCESS : GOODS_QRCODE_UPLOAD_ERROR;
     }
 }
